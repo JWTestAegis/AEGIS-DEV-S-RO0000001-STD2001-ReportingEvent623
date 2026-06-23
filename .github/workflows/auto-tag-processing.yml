@@ -21,7 +21,6 @@ name: Auto Tag Processing
 
 permissions:
   contents: write # リポジトリにタグをプッシュするために必要
-  pull-requests: none # Added on 2026/05/23
 
 on:
   push:
