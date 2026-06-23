@@ -21,6 +21,7 @@ name: Auto Tag Processing
 
 permissions:
   contents: write # リポジトリにタグをプッシュするために必要
+  pull-requests: read
 
 on:
   push:
